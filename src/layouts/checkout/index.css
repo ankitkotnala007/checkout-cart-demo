@@ -1,0 +1,32 @@
+.checkout--layout {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+}
+
+.checkout--layout__head {
+    padding: 2% 0;
+}
+
+.checkout--layout__head > span {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+
+.checkout--layout__body {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 576px) { 
+    .checkout--layout__body {
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap; */
+    }
+
+    .checkout--layout__head  > span{
+        font-size: 12px;
+    }
+ }

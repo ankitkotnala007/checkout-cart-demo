@@ -1,0 +1,28 @@
+.list--item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px;
+    margin: 0 10px 0 0;
+    border: 1px solid silver;
+}
+
+.list--item :first-child {
+    flex-grow: 1;
+}
+
+.list--item div {
+    flex-grow: 8;
+    text-align: left;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.list--item :last-child {
+    flex-grow: 1;
+    justify-self: flex-end;
+    align-self: center;
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.message-dialog {
+    display: block;
+    background-color:salmon;
+    color: black;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}

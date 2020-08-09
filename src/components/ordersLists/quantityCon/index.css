@@ -1,0 +1,20 @@
+.quantity--con {
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quantity--con__count {
+    border: 1px solid silver;
+    align-items: center;
+
+}
+
+.quantity--con__btn {
+    font-weight: 700;
+}
+.quantity--con__btn:hover {
+    cursor: pointer;
+    background-color: silver;
+    border-radius: 30px;
+}
